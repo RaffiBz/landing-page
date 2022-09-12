@@ -10,7 +10,9 @@ export default function News() {
     <div className="bg-gray mt-16 py-16 px-4 lg:px-[3.75rem]">
       <div className="text-center">
         <TitleMedium dimensions="block">{NewsEvents.title}</TitleMedium>
-        <Subtitle dimensions="block  pt-6">{NewsEvents.subtitle}</Subtitle>
+        <Subtitle dimensions="block  pt-6" color="text-subtitle">
+          {NewsEvents.subtitle}
+        </Subtitle>
       </div>
       <NewsGrid data={NewsEvents.news} />
     </div>

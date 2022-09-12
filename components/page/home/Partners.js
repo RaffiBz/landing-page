@@ -18,7 +18,9 @@ export default function Partners() {
           <TitleMedium dimensions="block">{PartnersData.title}</TitleMedium>
         </div>
         <div className="w-full max-w-[25.5rem] mx-auto">
-          <Subtitle dimensions="block pt-6">{PartnersData.subtitle}</Subtitle>
+          <Subtitle dimensions="block pt-6" color="text-subtitle">
+            {PartnersData.subtitle}
+          </Subtitle>
         </div>
       </div>
       <div className="md:hidden bg-dots-mb bg-no-repeat bg-cover px-4">

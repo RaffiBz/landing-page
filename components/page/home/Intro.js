@@ -14,7 +14,10 @@ export default function Intro() {
       <ShortNote>
         Momentum. one platform. all your partner marketing needs.
       </ShortNote>
-      <TitleLarge dimensions="block pt-3 w-full max-w-[40.25rem] mx-auto">
+      <TitleLarge
+        dimensions="block pt-3 w-full max-w-[40.25rem] mx-auto"
+        color="text-secondary"
+      >
         Influencer, Affiliate, & Ambassador Management.
       </TitleLarge>
       <div className="flex justify-center items-center gap-1 pt-2">
@@ -23,7 +26,10 @@ export default function Intro() {
         </span>
         <Image src={check} width={37} height={37} alt="check" />
       </div>
-      <Subtitle dimensions="block pt-3 w-full max-w-[32.125rem] mx-auto">
+      <Subtitle
+        dimensions="block pt-3 w-full max-w-[32.125rem] mx-auto"
+        color="text-subtitle"
+      >
         Automatically onboard and allow all your partners to log into Momentum’s
         branded portal for up to the minute tracking. No need for coding, or
         custom implementation.

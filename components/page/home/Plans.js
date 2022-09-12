@@ -13,7 +13,9 @@ export default function Plans() {
           <TitleMedium dimensions="block">{PlansData.title}</TitleMedium>
         </div>
         <div className="w-full max-w-[28.438rem] mx-auto md:max-w-none">
-          <Subtitle dimensions="block  pt-6">{PlansData.subtitle}</Subtitle>
+          <Subtitle dimensions="block  pt-6" color="text-subtitle">
+            {PlansData.subtitle}
+          </Subtitle>
         </div>
       </div>
       <PlansGrid />

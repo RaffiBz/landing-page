@@ -13,7 +13,9 @@ export default function Subscribe() {
           <TitleMedium dimensions="block">{SubscribeData.title}</TitleMedium>
         </div>
         <div className="w-full max-w-[30rem] mx-auto">
-          <Subtitle dimensions="block pt-6">{SubscribeData.subtitle}</Subtitle>
+          <Subtitle dimensions="block pt-6" color="text-subtitle">
+            {SubscribeData.subtitle}
+          </Subtitle>
         </div>
       </div>
       <SubscribeForm />

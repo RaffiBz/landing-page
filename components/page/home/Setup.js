@@ -14,7 +14,9 @@ export default function Setup() {
         <div className="max-w-[14.125rem] mx-auto md:max-w-[17.125rem] md:mx-0">
           <TitleMedium dimensions="block">{Play.title}</TitleMedium>
         </div>
-        <Subtitle dimensions="block pt-6">{Play.text}</Subtitle>
+        <Subtitle dimensions="block pt-6" color="text-subtitle">
+          {Play.text}
+        </Subtitle>
         <LearnMoreButton display="mt-8" />
       </div>
       <div className="md:bg-setup bg-contain bg-no-repeat md:px-8 pt-8 md:pt-[5.75rem] pb-[13rem] md:pb-[6.375rem]">

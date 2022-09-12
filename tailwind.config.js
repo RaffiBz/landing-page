@@ -52,6 +52,7 @@ module.exports = {
       colors: {
         primary: "#43B6FA",
         secondary: "#1B2767",
+        secondaryDark: "#182151",
         primaryDark: "#4A7EF6",
         subtitle: "#6E7CA7",
         orange: "#FB896B",
@@ -79,6 +80,10 @@ module.exports = {
         about: "url('/images/about/about-bg.svg')",
         "about-banner-bg": "url('/images/about/about-oval-bg.svg')",
         "about-body-bg": "url('/images/about/about-body-bg.svg')",
+        "oval-blue": "url('/images/solutions/oval-blue.svg')",
+        "oval-orange": "url('/images/solutions/oval-orange.svg')",
+        "oval-gold": "url('/images/solutions/oval-gold.svg')",
+        "oval-purple": "url('/images/solutions/oval-purple.svg')",
       },
     },
   },
