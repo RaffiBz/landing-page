@@ -1,0 +1,11 @@
+<svg width="74" height="74" viewBox="0 0 74 74" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="6.10352e-05" width="74" height="74" rx="15" fill="white" fill-opacity="0.2"/>
+<rect x="20.0001" y="23" width="30" height="26" rx="2" stroke="#97E9BC" stroke-width="2"/>
+<circle cx="46.5001" cy="31.5" r="6.5" fill="white"/>
+<rect x="37.0001" y="35" width="20" height="12" fill="white"/>
+<path d="M55.0001 45V43C55.0001 41.9391 54.5523 40.9217 53.7553 40.1716C52.9582 39.4214 51.8772 39 50.7501 39H42.2501C41.1229 39 40.0419 39.4214 39.2449 40.1716C38.4478 40.9217 38.0001 41.9391 38.0001 43V45" stroke="#97E9BC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M46.5001 36C48.9853 36 51.0001 33.9853 51.0001 31.5C51.0001 29.0147 48.9853 27 46.5001 27C44.0148 27 42.0001 29.0147 42.0001 31.5C42.0001 33.9853 44.0148 36 46.5001 36Z" stroke="#97E9BC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M23.0001 31H34.0001" stroke="#97E9BC" stroke-width="2" stroke-linecap="round"/>
+<path d="M23.0001 36H34.0001" stroke="#97E9BC" stroke-width="2" stroke-linecap="round"/>
+<path d="M23.0001 41H34.0001" stroke="#97E9BC" stroke-width="2" stroke-linecap="round"/>
+</svg>
