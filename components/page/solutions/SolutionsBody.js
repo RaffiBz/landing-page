@@ -6,7 +6,7 @@ import Partner from "./Partner";
 
 export default function SolutionsBody() {
   return (
-    <div className="pt-[7.875rem] pb-16 px-4 md:px-[3.75rem]">
+    <div className="pt-[7.875rem] px-4 md:px-[3.75rem]">
       {/* single program */}
       <Ambassador />
       <Affiliate />

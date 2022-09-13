@@ -33,27 +33,31 @@ export const FooterItems = [
     title: "About Us",
     dropdown: [
       {
-        href: "/about",
+        href: "/about/#1",
         name: "Compaigns and management",
       },
       {
-        href: "/about",
+        href: "/about/#2",
         name: "Affilate influencer portal",
       },
       {
-        href: "/about",
+        href: "/about/#3",
+        name: "Plug, play and easy setup",
+      },
+      {
+        href: "/about/#4",
         name: "Branded pages and content library",
       },
       {
-        href: "/about",
+        href: "/about/#5",
         name: "Offers, partner tiers and commission",
       },
       {
-        href: "/about",
+        href: "/about/#6",
         name: "Attribution and first party tracking",
       },
       {
-        href: "/about",
+        href: "/about/#7",
         name: "Integration, partners and payment",
       },
     ],
@@ -68,7 +72,7 @@ export const FooterItems = [
         name: "Marketing programs",
       },
       {
-        href: "/solutions",
+        href: "/solutions/#2",
         name: "Industries",
       },
     ],
@@ -79,19 +83,19 @@ export const FooterItems = [
     title: "Partners",
     dropdown: [
       {
-        href: "/partners",
+        href: "/partners/#1",
         name: "Agencies",
       },
       {
-        href: "/partners",
+        href: "/partners/#2",
         name: "commerce platform",
       },
       {
-        href: "/partners",
+        href: "/partners/#2",
         name: "apps",
       },
       {
-        href: "/partners",
+        href: "/partners/#3",
         name: "publishers",
       },
     ],

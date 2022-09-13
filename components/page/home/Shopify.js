@@ -17,7 +17,7 @@ export default function Shopify() {
   }, []);
 
   return (
-    <div className="md:bg-gray md:px-4 lg:px-[3.75rem] mt-16 md:py-16">
+    <div className="md:bg-gray md:px-4 lg:px-[3.75rem] mt-16 md:mt-0 md:py-16">
       {/* <Image src={isMobile} alt="shopify" /> */}
       <div className="bg-shopify-mb md:bg-shopify bg-no-repeat bg-cover lg:pb-[8.125rem] lg:pt-[8.125rem] pb-[31.75rem] pt-16 md:px-[3.25rem] items-center">
         <div className="w-full max-w-[18.75rem] md:max-w-[30rem] mx-auto md:mx-0">

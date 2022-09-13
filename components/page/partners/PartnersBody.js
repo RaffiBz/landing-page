@@ -9,6 +9,7 @@ export default function PartnersBody() {
         {PartnersBodyData.map((item) => (
           <BodyItem
             key={item.id}
+            id={item.id}
             num={item.num}
             title={item.title}
             text={item.text}

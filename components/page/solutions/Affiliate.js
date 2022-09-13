@@ -17,7 +17,7 @@ export default function Affiliate() {
         <Image width={644} height={431} src={affiliateMain} alt="main" />
       </div>
       {/* oval bg with text */}
-      <div className="flex justify-end bg-oval-orange bg-no-repeat bg-cover py-8 pr-[11.313rem] w-full max-w-[54.5rem] min-h-[32.625rem]">
+      <div className="flex justify-end bg-orange bg-opacity-10 rounded-[25rem] py-8 pr-[11.313rem] w-full max-w-[54.5rem] min-h-[32.625rem]">
         <div className="w-full max-w-[22.938rem] text-secondary">
           <div className="mx-auto w-[220px]">
             <Image src={affiliate} width={220} height={200} alt="icon" />

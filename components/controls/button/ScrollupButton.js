@@ -29,7 +29,10 @@ export default function ScrollupButton() {
   return (
     <>
       {isVisible && (
-        <Button className="fixed bottom-14 right-14" onClick={scrollTopHandler}>
+        <Button
+          className="hidden md:block fixed bottom-14 right-14"
+          onClick={scrollTopHandler}
+        >
           <Image src={Scrollup} width={42} height={42} alt="button" />
         </Button>
       )}

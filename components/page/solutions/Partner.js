@@ -17,7 +17,7 @@ export default function Partner() {
         <Image width={644} height={384} src={partnerMain} alt="main" />
       </div>
       {/* oval bg with text */}
-      <div className="flex justify-end bg-oval-purple bg-no-repeat bg-cover py-8 pr-[11.313rem] w-full max-w-[54.5rem] max-h-[32.625rem]">
+      <div className="flex justify-end bg-primaryDark bg-opacity-10 rounded-[25rem] pt-8 pb-[5.875rem] pr-[11.313rem] w-full max-w-[54.5rem] max-h-[32.625rem]">
         <div className="w-full max-w-[22.938rem] text-secondary">
           <div className="mx-auto w-[220px]">
             <Image src={partner} width={220} height={200} alt="icon" />

@@ -9,7 +9,7 @@ export default function Ambassador() {
   return (
     <div className="flex justify-between">
       {/* oval bg with text */}
-      <div className="bg-oval-blue bg-no-repeat bg-cover py-8 pl-[11.313rem] w-full max-w-[54.5rem] min-h-[32.625rem]">
+      <div className="bg-lightBlue bg-opacity-10 rounded-[25rem] py-8 pl-[11.313rem] w-full max-w-[54.5rem] min-h-[32.625rem]">
         <div className="w-full max-w-[22.938rem] text-secondary">
           <div className="mx-auto w-[220px]">
             <Image src={ambassador} width={220} height={200} alt="icon" />
