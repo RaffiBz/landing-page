@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function BodyItem(props) {
   return (
     <div
-      className="block md:flex justify-between gap-8 items-center mt-8 md:mt-16"
+      className="block md:flex justify-between gap-8 items-center mt-16"
       id={props.id}
     >
       <div className="block w-full md:max-w-[21rem]">
@@ -16,7 +16,7 @@ export default function BodyItem(props) {
           {props.text}
         </span>
       </div>
-      <div className="block">
+      <div className="block mt-8 md:mt-0">
         <Image src={props.img} width={872} height={600} alt="image" />
       </div>
     </div>

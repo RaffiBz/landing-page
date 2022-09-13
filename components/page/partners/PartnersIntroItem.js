@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function PartnersIntroItem(props) {
   return (
-    <div className="block relative bg-white bg-opacity-10 rounded-[25rem] h-fit w-full max-w-[19.25rem] px-[1.813rem] py-8 text-center text-white">
+    <div className="block relative bg-white bg-opacity-10 rounded-[25rem] h-fit w-full mx-auto md:mx-0 mt-8 md:mt-0 max-w-[19.25rem] px-[1.813rem] py-8 text-center text-white">
       <span className="block text-3xl leading-[2.344rem]">{props.title}</span>
       <div className="my-8 w-20 h-20 mx-auto">
         <Image src={props.icon} width={80} height={80} alt="icon" />

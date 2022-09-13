@@ -10,7 +10,7 @@ import hero from "../../../public/images/home/hero.png";
 
 export default function Intro() {
   return (
-    <div className="block pt-[6.375rem] md:pt-[5.75rem] px-4 text-center">
+    <div className="block pt-[6.375rem] md:pt-[6.75rem] px-4 text-center">
       <ShortNote>
         Momentum. one platform. all your partner marketing needs.
       </ShortNote>
