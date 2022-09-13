@@ -17,7 +17,7 @@ export default function MainNavigation() {
   const router = useRouter();
   const [colorChange, setColorchange] = useState(false);
   const [mobileNav, setMobileNav] = useState(false);
-  const [menu, setMenu] = useState();
+  const [menu, setMenu] = useState(menuDark);
   // navbar color on scroll
   const changeNavbarColor = () => {
     if (window.scrollY >= 10) {
@@ -35,7 +35,7 @@ export default function MainNavigation() {
   };
 
   useEffect(() => {
-    if (router.pathname == "/about") {
+    if (router.pathname == "/about" || router.pathname == "/partners") {
       setMenu(menuWhite);
     } else {
       setMenu(menuDark);
@@ -47,7 +47,7 @@ export default function MainNavigation() {
       {!mobileNav && (
         <nav
           className={`${
-            router.pathname == "/about"
+            router.pathname == "/about" || router.pathname == "/partners"
               ? "bg-secondary text-white"
               : "bg-white text-secondary"
           } fixed flex flex-row w-screen z-10 px-4 py-4 lg:px-10 xl:px-[3.75rem] lg:py-3 items-center shadow-medium max-w-[1920px]`}
@@ -58,7 +58,12 @@ export default function MainNavigation() {
               <Link href="/">
                 <a>
                   <Image
-                    src={router.pathname == "/about" ? logoWhite : logo}
+                    src={
+                      router.pathname == "/about" ||
+                      router.pathname == "/partners"
+                        ? logoWhite
+                        : logo
+                    }
                     alt="logo"
                     width={120}
                     height={39}

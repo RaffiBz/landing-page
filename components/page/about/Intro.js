@@ -6,7 +6,7 @@ import banner from "../../../public/images/about/about-banner.png";
 
 export default function Intro() {
   return (
-    <div className="bg-about bg-no-repeat bg-cover pt-[6.875rem] pb-[11.75rem] block md:flex pl-[3.75rem] justify-between">
+    <div className="bg-secondary rounded-bl-[25rem] pt-[6.875rem] pb-[11.75rem] block md:flex pl-[3.75rem] justify-between">
       <div className="block w-full max-w-[31.563rem] md:mt-[9.125rem]">
         <span className="text-primary text-[2.375rem] leading-[2.781rem] md:text-[3.125rem] md:leading-[3.625rem] font-bold capitalize">
           {AboutIntro.title}
