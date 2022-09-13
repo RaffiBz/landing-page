@@ -13,11 +13,11 @@ export default function Partner() {
         <Image src={arrow} width={99} height={116} alt="arrow" />
       </div>
       {/* side image */}
-      <div className="-mr-[12.5rem] mt-[2.75rem]">
+      <div className="hidden md:block -mr-[12.5rem] mt-[2.75rem]">
         <Image width={644} height={384} src={partnerMain} alt="main" />
       </div>
       {/* oval bg with text */}
-      <div className="flex justify-end bg-primaryDark bg-opacity-10 rounded-[25rem] pt-8 pb-[5.875rem] pr-[11.313rem] w-full max-w-[54.5rem] max-h-[32.625rem]">
+      <div className="md:flex justify-end bg-primaryDark bg-opacity-10 rounded-[25rem] pt-8 pb-[5.875rem] px-4 md:px-0 md:pr-[11.313rem] w-full max-w-[54.5rem] md:max-h-[32.625rem]">
         <div className="w-full max-w-[22.938rem] text-secondary">
           <div className="mx-auto w-[220px]">
             <Image src={partner} width={220} height={200} alt="icon" />
@@ -28,6 +28,10 @@ export default function Partner() {
           <span className="block pt-4 text-base leading-[1.563rem]">
             {SolutionsBodyData.partners.text}
           </span>
+        </div>
+        {/* main image mobile view */}
+        <div className="block md:hidden">
+          <Image width={644} height={384} src={partnerMain} alt="main" />
         </div>
       </div>
     </div>

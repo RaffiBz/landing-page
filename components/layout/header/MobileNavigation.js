@@ -25,6 +25,7 @@ export default function MobileNavigation(props) {
               router.pathname == item.href ? "text-primary" : "text-white"
             } hover:text-primary pt-12`}
             key={item.id}
+            onClick={props.onClick}
           >
             <Link href={item.href}>{item.title}</Link>
           </li>

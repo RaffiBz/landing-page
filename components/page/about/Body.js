@@ -15,7 +15,9 @@ export default function Body() {
           bullets={item.bullets}
           img={item.img}
           direction={item.id % 2 === 0 ? "flex-row-reverse" : "flex-row"}
-          spacing={item.id != 1 ? "pt-[7.5rem]" : "pt-[3.875rem]"}
+          spacing={
+            item.id != 1 ? "pt-[4.5rem] md:pt-[7.5rem]" : "pt-[3.875rem]"
+          }
         />
       ))}
       <AboutShopify />

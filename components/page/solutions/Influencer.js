@@ -9,7 +9,7 @@ export default function Influencer() {
   return (
     <div className="flex justify-between pt-[9.125rem]">
       {/* oval bg with text */}
-      <div className="bg-gold bg-opacity-10 rounded-[25rem] py-8 pl-[11.313rem] w-full max-w-[54.5rem] max-h-[32.625rem]">
+      <div className="bg-gold bg-opacity-10 rounded-[25rem] py-8 md:pl-[11.313rem] px-4 md:px-0 w-full max-w-[54.5rem] min-h-[32.625rem]">
         <div className="w-full max-w-[22.938rem] text-secondary">
           <div className="mx-auto w-[220px]">
             <Image src={influencer} width={220} height={200} alt="icon" />
@@ -21,9 +21,12 @@ export default function Influencer() {
             {SolutionsBodyData.influencers.text}
           </span>
         </div>
+        <div className="block md:hidden">
+          <Image width={639} height={624} src={influencerMain} alt="main" />
+        </div>
       </div>
       {/* side image */}
-      <div className="-ml-[12.5rem]">
+      <div className="hidden md:block -ml-[12.5rem]">
         <Image width={639} height={624} src={influencerMain} alt="main" />
       </div>
     </div>

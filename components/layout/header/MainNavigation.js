@@ -96,7 +96,7 @@ export default function MainNavigation() {
       )}
       {/* burger menu button */}
       <Button
-        className="fixed top-[1.375rem] z-20 right-4 lg:hidden"
+        className="fixed top-[1.375rem] z-30 right-4 lg:hidden"
         onClick={mobileNavHandler}
       >
         <Image

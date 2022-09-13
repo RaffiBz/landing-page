@@ -9,8 +9,8 @@ import line from "../../../public/images/about/line-wave.svg";
 
 export default function Intro() {
   return (
-    <div className="relative bg-secondary rounded-bl-[25rem] pt-[6.875rem] pb-[11.75rem] block md:flex pl-[3.75rem] justify-between overflow-hidden">
-      <div className="block w-full max-w-[31.563rem] md:mt-[9.125rem]">
+    <div className="relative bg-secondary rounded-bl-[25rem] pt-[6.875rem] pb-[11.75rem] block md:flex pl-4 md:px-0 md:pl-[3.75rem] justify-between overflow-hidden text-center">
+      <div className="block w-full max-w-[31.563rem] md:mt-[9.125rem] pr-4 md:pr-0">
         <span className="text-primary text-[2.375rem] leading-[2.781rem] md:text-[3.125rem] md:leading-[3.625rem] font-bold capitalize">
           {AboutIntro.title}
         </span>

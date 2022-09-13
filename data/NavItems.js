@@ -132,11 +132,11 @@ export const FooterItems = [
     title: "Legal",
     dropdown: [
       {
-        href: "/",
+        href: "/privacy",
         name: "Privacy Policy",
       },
       {
-        href: "/",
+        href: "/terms",
         name: "Terms & Conditions",
       },
     ],

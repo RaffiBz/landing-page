@@ -8,7 +8,7 @@ import arrow from "../../../public/images/solutions/arrow-left.svg";
 
 export default function SolutionsIntro() {
   return (
-    <div className="relative pt-[7.75rem] pb-[1.25rem] text-center">
+    <div className="relative pt-[7.75rem] pb-[1.25rem] text-center px-4">
       <TitleLarge color="text-secondary">
         {SolutionsInroduction.title}
       </TitleLarge>
