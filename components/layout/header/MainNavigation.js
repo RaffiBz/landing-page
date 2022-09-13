@@ -50,7 +50,7 @@ export default function MainNavigation() {
             router.pathname == "/about" || router.pathname == "/partners"
               ? "bg-secondary text-white"
               : "bg-white text-secondary"
-          } fixed flex flex-row w-screen z-10 px-4 py-4 lg:px-10 xl:px-[3.75rem] lg:py-3 items-center shadow-medium max-w-[1920px]`}
+          } fixed flex flex-row w-screen z-20 px-4 py-4 lg:px-10 xl:px-[3.75rem] lg:py-3 items-center shadow-medium max-w-[1920px]`}
         >
           <div className="flex w-full items-center justify-between">
             <div className="flex justify-start items-center gap-10 xl:gap-[3.75rem]">

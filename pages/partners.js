@@ -1,4 +1,5 @@
 import Head from "next/head";
+import ScrollupButton from "../components/controls/button/ScrollupButton";
 import PartnersBody from "../components/page/partners/PartnersBody";
 import PartnersIntro from "../components/page/partners/PartnersIntro";
 
@@ -13,6 +14,7 @@ export default function partners() {
       <div>
         <PartnersIntro />
         <PartnersBody />
+        <ScrollupButton />
       </div>
     </div>
   );

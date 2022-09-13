@@ -8,6 +8,7 @@ import Plans from "../components/page/home/Plans";
 import Shopify from "../components/page/home/Shopify";
 import Subscribe from "../components/page/home/Subscribe";
 import Partners from "../components/page/home/Partners";
+import ScrollupButton from "../components/controls/button/ScrollupButton";
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
         <Plans />
         <Shopify />
         <Subscribe />
+        <ScrollupButton />
       </div>
     </div>
   );

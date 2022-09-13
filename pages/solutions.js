@@ -1,8 +1,8 @@
-import React from "react";
 import Head from "next/head";
 import SolutionsIntro from "../components/page/solutions/SolutionsIntro";
 import SolutionsBody from "../components/page/solutions/SolutionsBody";
 import Industries from "../components/page/solutions/Industries";
+import ScrollupButton from "../components/controls/button/ScrollupButton";
 
 export default function solutions() {
   return (
@@ -17,6 +17,7 @@ export default function solutions() {
         <SolutionsIntro />
         <SolutionsBody />
         <Industries />
+        <ScrollupButton />
       </div>
     </div>
   );

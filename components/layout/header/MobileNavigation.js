@@ -10,7 +10,7 @@ import SignupButton from "../../controls/button/SignupButton";
 export default function MobileNavigation(props) {
   const router = useRouter();
   return (
-    <nav className="fixed z-10 block lg:hidden w-full min-h-screen bg-secondary pt-[5rem] text-center">
+    <nav className="fixed z-20 block lg:hidden w-full min-h-screen bg-secondary pt-[5rem] text-center">
       {/* logo */}
       <Link href="/">
         <a>

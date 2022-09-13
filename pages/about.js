@@ -3,6 +3,7 @@ import Head from "next/head";
 import React from "react";
 import Body from "../components/page/about/body";
 import Intro from "../components/page/about/intro";
+import ScrollupButton from "../components/controls/button/ScrollupButton";
 
 export default function about() {
   return (
@@ -16,6 +17,7 @@ export default function about() {
       <div>
         <Intro />
         <Body />
+        <ScrollupButton />
       </div>
     </div>
   );
