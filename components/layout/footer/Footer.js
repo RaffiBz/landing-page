@@ -4,9 +4,9 @@ import Link from "next/link";
 
 import SocialIcons from "./SocialIcons";
 import MobileAccordion from "./MobileAccordion";
-import GettingStartedButton from "../../controls/button/GettingStartedButton";
 import logo from "../../../public/images/nav/logo-white.png";
 import FooterLinks from "./FooterLinks";
+import ButtonPrimary from "../../controls/button/ButtonPrimary";
 
 export default function Footer() {
   return (
@@ -27,7 +27,7 @@ export default function Footer() {
           </span>
           {/* socials */}
           <SocialIcons />
-          <GettingStartedButton />
+          <ButtonPrimary display="mt-6 md:mt-4">Getting Started</ButtonPrimary>
         </div>
         {/* accordion mobile view */}
         <MobileAccordion />

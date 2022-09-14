@@ -34,6 +34,13 @@ export default function MainNavigation() {
     setMobileNav((prev) => !prev);
   };
 
+  //pricing link scroll
+  const scrollSectionhandler = (e) => {
+    let plans = document.getElementById("plans");
+    e.preventDefault();
+    plans && plans.scrollIntoView({ behavior: "smooth", block: "start" });
+  };
+
   useEffect(() => {
     if (router.pathname == "/about" || router.pathname == "/partners") {
       setMenu(menuWhite);
@@ -79,7 +86,15 @@ export default function MainNavigation() {
                     } hover:text-primary`}
                     key={item.id}
                   >
-                    <Link href={item.href}>{item.title}</Link>
+                    <Link href={item.href}>
+                      <a
+                        onClick={
+                          item.id == 5 ? scrollSectionhandler : undefined
+                        }
+                      >
+                        {item.title}
+                      </a>
+                    </Link>
                   </li>
                 ))}
               </ul>

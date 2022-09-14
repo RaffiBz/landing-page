@@ -9,7 +9,10 @@ import dots from "../../../public/images/general/dot-square.svg";
 
 export default function Plans() {
   return (
-    <div className="bg-primaryDark relative rounded-[25rem] bg-opacity-10 md:rounded-none md:bg-opacity-100 md:bg-white px-4 lg:px-[2.5rem] xl:px-[3.75rem] pt-[7.5rem] pb-[9.5rem] md:pb-[13.75rem] mt-16 md:mt-0">
+    <div
+      id="plans"
+      className="bg-primaryDark relative rounded-[25rem] bg-opacity-10 md:rounded-none md:bg-opacity-100 md:bg-white px-4 lg:px-[2.5rem] xl:px-[3.75rem] pt-[7.5rem] pb-[9.5rem] md:pb-[13.75rem] mt-16 md:mt-0"
+    >
       {/* background dots top*/}
       <div className="hidden md:block absolute top-16 left-[8.75rem]">
         <Image width={148} height={148} src={dots} alt="dots" />

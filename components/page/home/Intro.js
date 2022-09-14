@@ -4,9 +4,9 @@ import Image from "next/image";
 import ShortNote from "../../controls/span/ShortNote";
 import TitleLarge from "../../controls/span/TitleLarge";
 import Subtitle from "../../controls/span/Subtitle";
-import GettingStartedButton from "../../controls/button/GettingStartedButton";
 import check from "../../../public/images/home/intro-check.svg";
 import hero from "../../../public/images/home/hero.png";
+import ButtonPrimary from "../../controls/button/ButtonPrimary";
 
 export default function Intro() {
   return (
@@ -34,7 +34,9 @@ export default function Intro() {
         branded portal for up to the minute tracking. No need for coding, or
         custom implementation.
       </Subtitle>
-      <GettingStartedButton display="hidden md:block mx-auto" />
+      <ButtonPrimary display="hidden md:block mx-auto mt-6 md:mt-4">
+        Getting Started
+      </ButtonPrimary>
       {/* hero image */}
       <div className="mx-auto mt-2 md:mt-8">
         <Image src={hero} width={1017} height={536} alt="hero" />
