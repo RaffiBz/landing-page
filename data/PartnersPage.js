@@ -50,7 +50,7 @@ export const PartnersBodyData = [
     id: 3,
     num: "/images/partners/three.svg",
     img: "/images/partners/publisher-image.png",
-    title: "publishers",
+    title: "Publishers",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras donec semper ut sit. Mauris viverra odio est tincidunt in venenatis. Eleifend accumsan, pulvinar pretium risus eu vulputate. Imperdiet erat at purus libero id rhoncus. Nulla ultricies egestas nisl vulputate urna. Tincidunt.",
   },
 ];

@@ -6,7 +6,7 @@ export default function ImageBullets(props) {
   return (
     <div
       id={props.id}
-      className={`${props.direction} ${props.spacing} block lg:flex justify-between gap-[7.063rem]`}
+      className={`${props.direction} ${props.spacing} block lg:flex justify-between gap-[1rem] xl:gap-[7.063rem]`}
     >
       <div className="block w-full max-w-[21rem] md:mt-[4.375rem] mx-auto pb-4">
         <TitleMedium>{props.title}</TitleMedium>

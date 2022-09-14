@@ -6,7 +6,7 @@ import ImageBullets from "./ImageBullets";
 
 export default function Body() {
   return (
-    <div className="block bg-about-body-bg bg-cover bg-no-repeat px-4 md:px-[3.75rem] pb-[5rem]">
+    <div className="block bg-about-body-bg bg-cover bg-no-repeat px-4 md:px-[2.5rem] xl:px-[3.75rem] pb-[5rem]">
       {AboutBody.map((item) => (
         <ImageBullets
           key={item.id}

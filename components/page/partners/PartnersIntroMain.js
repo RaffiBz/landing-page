@@ -7,7 +7,7 @@ import TitleLarge from "../../controls/span/TitleLarge";
 
 export default function PartnersIntroMain() {
   return (
-    <div className="w-full max-w-[27.938rem] text-center md:mt-[12rem]">
+    <div className="w-full max-w-[27.938rem] mx-auto md:mx-0 text-center md:mt-[12rem]">
       <TitleLarge color="text-primary">
         {PartnersIntroData.main.title}
       </TitleLarge>

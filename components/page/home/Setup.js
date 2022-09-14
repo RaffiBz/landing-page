@@ -9,7 +9,7 @@ import TitleMedium from "../../controls/span/TitleMedium";
 
 export default function Setup() {
   return (
-    <div className="block bg-setup-mb bg-cover bg-no-repeat md:bg-none md:flex md:flex-row-reverse justify-between items-center pt-[7.75rem] md:pt-0 md:px-[3.75rem] mt-16 md:mt-[20rem]">
+    <div className="block bg-setup-mb bg-cover bg-no-repeat md:bg-none md:flex gap-8 md:flex-row-reverse justify-between items-center pt-[7.75rem] md:pt-0 md:px-[3.75rem] mt-16 md:mt-[20rem]">
       <div className="block w-full max-w-[21.438rem] text-center md:text-left mx-auto">
         <div className="max-w-[14.125rem] mx-auto md:max-w-[17.125rem] md:mx-0">
           <TitleMedium dimensions="block">{Play.title}</TitleMedium>
