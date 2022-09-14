@@ -7,11 +7,11 @@ import SubtitleSmall from "../../controls/span/SubtitleSmall";
 import TextMedium from "../../controls/span/TextMedium";
 import ReadMoreButton from "../../controls/button/ReadMoreButton";
 
-export default function NewsCard({ img, date, text }) {
+export default function BlogCard({ img, date, text }) {
   return (
     <Card className="w-full max-w-[26.25] bg-white p-[0.813rem] md:p-4 rounded-[0.938rem] shadow-large">
       <div className="relative rounded-[0.938rem] w-auto h-[196px] lg:h-[240px]">
-        <Image src={img} layout="fill" alt="news" className="object-cover" />
+        <Image src={img} layout="fill" alt="blog" className="object-cover" />
       </div>
       <div className="flex items-center gap-2 pt-[0.969rem] md:pt-[1.188rem]">
         <Image width={16} height={16} src={calendar} alt="calendar" />

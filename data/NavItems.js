@@ -16,7 +16,7 @@ export const NavItems = [
   },
   {
     id: 4,
-    href: "/resources",
+    href: "/blog",
     title: "Resources",
   },
   {
