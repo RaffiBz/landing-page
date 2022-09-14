@@ -79,6 +79,24 @@ module.exports = {
         "about-banner-bg": "url('/images/about/about-oval-bg.svg')",
         "about-body-bg": "url('/images/about/about-body-bg.svg')",
       },
+      animation: {
+        openmenu: "openmenu 0.5s ease-in",
+        closemenu: "closemenu 1s ease-in",
+      },
+      keyframes: {
+        openmenu: {
+          // initial position
+          "0%": { right: "-300px" },
+          // final position
+          "100%": { right: "0px" },
+        },
+        closemenu: {
+          // initial position
+          "0%": { right: "0px" },
+          // final position
+          "100%": { right: "-224px" },
+        },
+      },
     },
   },
   plugins: [],

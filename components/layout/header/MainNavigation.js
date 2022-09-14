@@ -107,7 +107,9 @@ export default function MainNavigation() {
         />
       </Button>
       {/* mobile navbar */}
-      {mobileNav && <MobileNavigation onClick={mobileNavHandler} />}
+      {mobileNav && (
+        <MobileNavigation onClick={mobileNavHandler} active={mobileNav} />
+      )}
     </>
   );
 }
