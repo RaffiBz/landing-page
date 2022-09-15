@@ -22,6 +22,7 @@ export default function PartnersIntro() {
             <PartnersIntroMain />
           </div>
           <PartnersIntroItem
+            id="1"
             title={PartnersIntroData.agency.title}
             icon={PartnersIntroData.agency.icon}
             arrow={PartnersIntroData.agency.arrow}
@@ -37,6 +38,7 @@ export default function PartnersIntro() {
             <PartnersIntroMain />
           </div>
           <PartnersIntroItem
+            id="2"
             title={PartnersIntroData.commerce.title}
             icon={PartnersIntroData.commerce.icon}
             arrow={PartnersIntroData.commerce.arrow}
@@ -53,12 +55,14 @@ export default function PartnersIntro() {
           </div>
           <div className="md:flex justify-between w-full max-w-[48.5rem] mx-auto mt-[1.438rem]">
             <PartnersIntroItem
+              id="2"
               title={PartnersIntroData.apps.title}
               icon={PartnersIntroData.apps.icon}
               arrow={PartnersIntroData.apps.arrow}
               text={PartnersIntroData.apps.text}
             />
             <PartnersIntroItem
+              id="3"
               title={PartnersIntroData.publisher.title}
               icon={PartnersIntroData.publisher.icon}
               arrow={PartnersIntroData.publisher.arrow}

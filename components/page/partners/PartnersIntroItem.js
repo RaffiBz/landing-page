@@ -2,8 +2,17 @@ import React from "react";
 import Image from "next/image";
 
 export default function PartnersIntroItem(props) {
+  const scrollSectionhandler = (e) => {
+    let plans = document.getElementById(props.id);
+    e.preventDefault();
+    plans && plans.scrollIntoView({ behavior: "smooth", block: "end" });
+  };
+
   return (
-    <div className="block relative bg-white bg-opacity-10 rounded-[25rem] h-fit w-full mx-auto md:mx-0 mt-8 md:mt-0 max-w-[19.25rem] px-[1.813rem] py-8 text-center text-white">
+    <div
+      onClick={scrollSectionhandler}
+      className="block cursor-pointer relative bg-white bg-opacity-10 rounded-[25rem] h-fit w-full mx-auto md:mx-0 mt-8 md:mt-0 max-w-[19.25rem] px-[1.813rem] py-8 text-center text-white"
+    >
       <span className="block text-3xl leading-[2.344rem]">{props.title}</span>
       <div className="my-8 w-20 h-20 mx-auto">
         <Image src={props.icon} width={80} height={80} alt="icon" />
