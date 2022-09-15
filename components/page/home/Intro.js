@@ -5,7 +5,7 @@ import ShortNote from "../../controls/span/ShortNote";
 import TitleLarge from "../../controls/span/TitleLarge";
 import Subtitle from "../../controls/span/Subtitle";
 import check from "../../../public/images/home/intro-check.svg";
-import hero from "../../../public/images/home/hero.png";
+import hero from "../../../public/images/home/hero.svg";
 import ButtonPrimary from "../../controls/button/ButtonPrimary";
 
 export default function Intro() {

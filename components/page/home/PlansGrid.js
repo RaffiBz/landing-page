@@ -1,9 +1,9 @@
 import React from "react";
 import Image from "next/image";
 
-import basic from "../../../public/images/plans/basic.png";
-import standard from "../../../public/images/plans/standard.png";
-import pro from "../../../public/images/plans/pro.png";
+import basic from "../../../public/images/plans/basic.svg";
+import standard from "../../../public/images/plans/standard.svg";
+import pro from "../../../public/images/plans/pro.svg";
 
 export default function PlansGrid() {
   return (

@@ -3,7 +3,7 @@ import { useRouter } from "next/router";
 import Image from "next/image";
 import Link from "next/link";
 
-import logo from "../../../public/images/nav/logo-white.png";
+import logo from "../../../public/images/nav/logo-white.svg";
 import { NavItems } from "../../../data/NavItems";
 import SignupButton from "../../controls/button/SignupButton";
 

@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 
 import { AboutIntro } from "../../../data/AboutPage";
-import banner from "../../../public/images/about/about-banner.png";
+import banner from "../../../public/images/about/about-banner.svg";
 import dots from "../../../public/images/about/dots.svg";
 import dashed from "../../../public/images/about/dashed-wave.svg";
 import line from "../../../public/images/about/line-wave.svg";

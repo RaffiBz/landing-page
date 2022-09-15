@@ -4,7 +4,7 @@ import Link from "next/link";
 
 import SocialIcons from "./SocialIcons";
 import MobileAccordion from "./MobileAccordion";
-import logo from "../../../public/images/nav/logo-white.png";
+import logo from "../../../public/images/nav/logo-white.svg";
 import FooterLinks from "./FooterLinks";
 import ButtonPrimary from "../../controls/button/ButtonPrimary";
 
