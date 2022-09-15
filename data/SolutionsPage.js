@@ -27,19 +27,19 @@ export const IndustryData = [
   {
     id: 1,
     title: "Health & Wellness",
-    img: "/images/solutions/health.png",
+    img: "/images/solutions/health.svg",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis vulputate ultrices augue cursus amet, id at nec. Sollicitudin convallis amet, consequat, volutpat ut vulputate nam etiam nisl. Lorem risus fermentum tellus quam et. Nibh feugiat turpis rhoncus etiam purus. At posuere tellus duis quis sagittis vel pellentesque.",
   },
   {
     id: 2,
     title: "Food & Beverage",
-    img: "/images/solutions/food.png",
+    img: "/images/solutions/food.svg",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis vulputate ultrices augue cursus amet, id at nec. Sollicitudin convallis amet, consequat, volutpat ut vulputate nam etiam nisl. Lorem risus fermentum tellus quam et. Nibh feugiat turpis rhoncus etiam purus. At posuere tellus duis quis sagittis vel pellentesque.",
   },
   {
     id: 3,
     title: "Fashion & Beauty",
-    img: "/images/solutions/fashion.png",
+    img: "/images/solutions/fashion.svg",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis vulputate ultrices augue cursus amet, id at nec. Sollicitudin convallis amet, consequat, volutpat ut vulputate nam etiam nisl. Lorem risus fermentum tellus quam et. Nibh feugiat turpis rhoncus etiam purus. At posuere tellus duis quis sagittis vel pellentesque.",
   },
   {

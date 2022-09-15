@@ -58,6 +58,7 @@ module.exports = {
         orange: "#FB896B",
         gold: "#E0BE68",
         lightBlue: "#43B5F9",
+        blueStroke: "#3FDAFF",
         gray: "#FAFAFA",
         grayLight: "#F6F6F6",
         grayBg: "#CECECE",
