@@ -13,7 +13,7 @@ export default function Partner() {
         <Image src={arrow} width={99} height={116} alt="arrow" />
       </div>
       {/* side image */}
-      <div className="hidden lg:block -mr-[12.5rem] mt-[2.75rem]">
+      <div className="hidden lg:block -mr-[12.5rem] xl:-mr-[17.5rem] mt-[2.75rem]">
         <Image width={644} height={384} src={partnerMain} alt="main" />
       </div>
       {/* oval bg with text */}

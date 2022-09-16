@@ -13,7 +13,6 @@ export default function IndustryGrid() {
           title={data.title}
           text={data.text}
           img={data.img}
-          rotate={data.id % 2 === 0 ? "-rotate-[73.91deg]" : ""}
         />
       ))}
     </div>

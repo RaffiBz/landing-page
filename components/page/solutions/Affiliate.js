@@ -13,7 +13,7 @@ export default function Affiliate() {
         <Image src={arrow} width={99} height={116} alt="arrow" />
       </div>
       {/* side image */}
-      <div className="hidden lg:block -mr-[12.5rem]">
+      <div className="hidden lg:block -mr-[12.5rem] xl:-mr-[17.5rem]">
         <Image width={644} height={431} src={affiliateMain} alt="main" />
       </div>
       {/* oval bg with text */}
