@@ -13,10 +13,10 @@ export default function SubscribeForm() {
 
     emailjs
       .sendForm(
-        "service_nn1e4sq",
-        "template_ntqs9ps",
+        process.env.NEXT_PUBLIC_SERVICE_ID,
+        process.env.NEXT_PUBLIC_TEMPLATE_ID,
         form.current,
-        "X10KuT4R9a96rbcQ7"
+        process.env.NEXT_PUBLIC_KEY
       )
       .then(
         (result) => {
